@@ -1,2 +1,5 @@
 node_modules
+**/input.csv
+**/output.csv
+**/output.json
 

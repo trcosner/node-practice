@@ -1,0 +1,26 @@
+{
+  "name": "csv-cleaner-cli",
+  "version": "1.0.0",
+  "description": "A Node.js CLI tool to clean and validate CSV files using streaming and JSON Schema.",
+  "main": "index.js",
+  "bin": {
+    "csv-cleaner": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js --input input.csv --output output.json --json",
+    "generate": "node generate-input.js",
+    "lint": "eslint ."
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonJs",
+  "dependencies": {
+    "ajv": "^8.0.0",
+    "csv-parser": "^3.0.0",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-node": "^11.0.0"
+  }
+}
